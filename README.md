@@ -39,7 +39,5 @@ Myfirst ever html and css code
   - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/).  
   - [Twitter](https://twitter.com/buksimesi21) 
   - [AngelList]()
-  
-- [Rodolfo Jose Llinas](https://github.com/RadiactiveJesus)
 
 ### If you like this project don't forgot to support it by giving a :star: 
