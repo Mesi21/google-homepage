@@ -17,6 +17,19 @@ main{
 	position:relative;
 }
 
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	margin: 0px;
+	padding: 0px;
+}
+
 .flex-container{
 	width: 100%;
 	min-width: 220px;
@@ -147,64 +160,63 @@ main{
 	font-weight: bold;
 }
 
-.div{
+.div-lang{
 	padding: 10px;
 	font-size: small;
 }
 
-/*footer*/
+.lnk:hover {
+	text-decoration: underline;
+	color: #609
+}
+
 footer{
 	padding: none;
 	position: fixed;
+	display: flex;
+	flex-direction: column;
 	width:100%;
 	min-width: 50px;
-	height: 60px;
+	height: 70px;
 	bottom: 0;
 	background-color: #f2f2f2;
 	border-top: 1px solid #e4e4e4;
+	color: rgba(0,0,0,.54);
 	font-size: small;
 	text-align: left;
 }
 
-.footer1{
-	padding: 8px 10px 8px 16px;
+.containerF {
+	display: flex;
+	flex-direction: row;
+	padding: 0px 27px;
+	height: 35px;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.left {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	justify-content: flex-start;
+}
+
+.left li {
+	margin-right: 30px;
+}
+
+.right {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	justify-content: flex-end;
+}
+
+.right li {
+	margin-left: 30px;
+}
+
+#country {
 	border-bottom: 1px solid #e4e4e4;
 }
-
-div.footer-list{
-	display: inline;
-	vertical-align: baseline;
-}
-
-footer ul{
-	list-style: none;
-	margin: 0;
-	padding-left: 0px;
-	padding-top: 8px;
-}
-
-footer li{
-	display: inline;
-	padding: 0 8px;
-}
-
-footer a{
-	text-decoration:none;
-	color: #000000;
-}
-
-footer a:hover{
-	text-decoration: underline;
-}
-
-ul.left{
-	float: left;
-	padding: 8px;
-}
-
-ul.right{
-	float: right;
-	padding: 10px;
-}
-
-
