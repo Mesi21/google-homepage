@@ -116,9 +116,10 @@ a {
 	border: 0.4px solid  #D3D3D3;
 	box-shadow: 4px 4px 4px #D3D3D3;
 	background-image: url('../images/mic.png');
+	background-size: 25px 25px;
 	background-repeat: no-repeat;
-	background-position: right;
-	border-radius: 3px;
+	background-position: calc(100% - 20px) calc(100% - 15px);
+	border-radius: 80px;
 }
 
 
